@@ -1,10 +1,19 @@
 Helm
 
-Package: https://artifacthub.io
+Packages: https://artifacthub.io
 
 List repository
 
 > helm repo list
+
+
+List package
+
+> helm list -A
+
+Remove Package
+>helm uninstall my-release
+
 
 Add repository
 
